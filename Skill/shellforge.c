@@ -32,7 +32,7 @@ int main() {
     char hostname[100];
     char currentPath[PATH_MAX];
 
-    char username[] = "30053_Karthik";
+    char username[] = "2520030008_Sahasra";
 
     if (gethostname(hostname, sizeof(hostname)) != 0) {
         strcpy(hostname, "localhost");
